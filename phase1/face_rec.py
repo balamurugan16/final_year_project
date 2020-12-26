@@ -3,8 +3,6 @@ import face_recognition as face
 import pickle
 import imutils 
 import numpy as np 
-import time
-import json
 
 class Recogniser:
      with open('./dataset.pickle','rb') as file:
